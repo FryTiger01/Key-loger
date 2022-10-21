@@ -1,0 +1,44 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    margin-top: 50px;
+}
+.header-div{
+    border-bottom: 2px solid red;
+}
+.form-child{
+    margin: 10px 5px 0 5px;
+    align-items: center;
+}
+.heading-tag{
+    font-size: 200px;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    font-size: 100px;
+}
+
+.information{
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-container{
+    margin: 100px 10px 20px 10px;
+    width: 300px;
+}
+.text-result{
+    text-align: center;
+}
+.footer{
+    border-top: 2px solid red;
+    position: relative;
+    bottom: -1px;
+    justify-content: center;
+    width: 100%;
+}
+.footer-text{
+    margin: 35px 0 35px 0;
+    
+}

@@ -1,0 +1,148 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Show Character Information</title>
+  </head>
+  <body class="bg-light">
+    <header>
+      <div class="header-div container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Key Information</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+              <form class="form d-flex">
+                <button
+                  class="form-child btn btn-outline-primary"
+                  type="submit"
+                >
+                  Tabel
+                </button>
+                <button
+                  class="form-child btn btn-outline-primary"
+                  type="submit"
+                >
+                  Dark mode
+                </button>
+                <button
+                  class="form-child btn btn-outline-primary"
+                  type="submit"
+                >
+                  Apps
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <h1></h1>
+      </section>
+      <section>
+        <div>
+          <h1 class="text-center" id="head-text">
+            Press any Key to get the JavaScript Eventt KeyCode
+          </h1>
+        </div>
+        <div>
+          <h1 class="text-center" id="head-text">..............</h1>
+        </div>
+      </section>
+
+      <section class="information d-none">
+        <div class="card-container card">
+          <div class="card-header text-light bg-primary d-flex justify-content-between">Event Key
+            <button class="btn btn-outline-info text-white btn-copy__event">copy</button>
+          </div>
+          <div class="card-body bg-light text-result">
+            <h5 class="card-title" id="event-key"></h5>
+          </div>
+        </div>
+        <div class="card-container card">
+          <div class="card-header text-light bg-primary d-flex justify-content-between">Event Location
+            <button class="btn btn-outline-info text-white btn-copy__location">copy</button>
+          </div>
+          <div class="card-body bg-light text-result">
+            <h5 class="card-title" id="event-location"></h5>
+          </div>
+        </div>
+        <div class="card-container card">
+          <div class="card-header text-light bg-primary d-flex justify-content-between">Event Which
+            <button class="btn btn-outline-info text-white btn-copy__which">copy</button>
+          </div>
+          <div class="card-body bg-light text-result">
+            <h5 class="card-title" id="event-which"></h5>
+          </div>
+        </div>
+        <div class="card-container card">
+          <div class="card-header text-light bg-primary d-flex justify-content-between">Event Code
+            <button class="btn btn-outline-info text-white btn-copy__code">copy</button>
+          </div>
+          <div class="card-body bg-light text-result">
+            <h5 class="card-title" id="event-code"></h5>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer d-none" id="footer">
+      <div>
+        <h6 class="footer-text">Made by FryTiger</h6>
+      </div>
+    </footer>
+    <script src="scipts.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!-- 
+    <div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
+<div class="alert alert-secondary" role="alert">
+  A simple secondary alert—check it out!
+</div>
+<div class="alert alert-success" role="alert">
+  A simple success alert—check it out!
+</div>
+<div class="alert alert-danger" role="alert">
+  A simple danger alert—check it out!
+</div>
+<div class="alert alert-warning" role="alert">
+  A simple warning alert—check it out!
+</div>
+<div class="alert alert-info" role="alert">
+  A simple info alert—check it out!
+</div>
+<div class="alert alert-light" role="alert">
+  A simple light alert—check it out!
+</div>
+<div class="alert alert-dark" role="alert">
+  A simple dark alert—check it out!
+</div>
+ -->
